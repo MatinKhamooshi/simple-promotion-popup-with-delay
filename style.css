@@ -2,12 +2,13 @@
     position: fixed;
     top: -120%;
     left: 50%;
-    background-color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    max-width: 90%;
-    max-height: 90vh;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
     overflow: visible;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
@@ -23,6 +24,16 @@
 
 #promotion-popup.active {
     top: 50%;
+}
+
+.promotion-popup-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: fit-content;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
 }
 
 #close-popup {
