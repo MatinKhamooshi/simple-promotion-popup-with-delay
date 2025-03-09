@@ -21,8 +21,8 @@
       <td align="center"><strong>📱 نسخه موبایل</strong></td>
     </tr>
     <tr>
-      <td><img src="img/Desktop-preview.png" alt="پیش‌نمایش پاپ‌آپ تبلیغاتی دسکتاپ" width="600px"/></td>
-      <td><img src="img/Mobile-preview.png" alt="پیش‌نمایش پاپ‌آپ تبلیغاتی موبایل" width="300px"/></td>
+      <td><img src="img/desktop-preview.png" alt="پیش‌نمایش پاپ‌آپ تبلیغاتی دسکتاپ" width="600px"/></td>
+      <td><img src="img/mobile-preview.png" alt="پیش‌نمایش پاپ‌آپ تبلیغاتی موبایل" width="300px"/></td>
     </tr>
   </table>
 </div>
