@@ -13,7 +13,19 @@
 
 ## پیش‌نمایش 👀
 
-![پیش‌نمایش پاپ‌آپ تبلیغاتی](https://doctorsarrafan.com/wp-content/uploads/2025/03/lifestyle-banner.webp)
+<div align="center">
+  <p>نمایش پاپ‌آپ در نسخه‌های مختلف:</p>
+  <table>
+    <tr>
+      <td align="center"><strong>💻 نسخه دسکتاپ</strong></td>
+      <td align="center"><strong>📱 نسخه موبایل</strong></td>
+    </tr>
+    <tr>
+      <td><img src="img/Desktop-preview.png" alt="پیش‌نمایش پاپ‌آپ تبلیغاتی دسکتاپ" width="600px"/></td>
+      <td><img src="img/Mobile-preview.png" alt="پیش‌نمایش پاپ‌آپ تبلیغاتی موبایل" width="300px"/></td>
+    </tr>
+  </table>
+</div>
 
 ## نحوه استفاده 🚀
 
