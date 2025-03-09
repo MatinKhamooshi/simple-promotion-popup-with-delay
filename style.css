@@ -1,0 +1,55 @@
+#promotion-popup {
+    position: fixed;
+    top: -120%;
+    left: 50%;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 100%;
+    max-width: 90%;
+    max-height: 90vh;
+    overflow: visible;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transition: top 0.3s;
+    -webkit-transition: top 0.3s;
+    -moz-transition: top 0.3s;
+    -ms-transition: top 0.3s;
+    -o-transition: top 0.3s;
+}
+
+#promotion-popup.active {
+    top: 50%;
+}
+
+#close-popup {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: white;
+    color: #bbb;
+    border: 1px solid #bbb;
+    width: 24px;
+    height: 24px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+#close-popup:hover {
+    background: #ff0000;
+    color: white;
+    border-color: white;
+}
+
+#promotion-popup img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
