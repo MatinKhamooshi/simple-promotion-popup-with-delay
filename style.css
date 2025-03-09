@@ -44,9 +44,9 @@
     background: white;
     color: #bbb;
     border: 1px solid #bbb;
-    width: 24px;
-    height: 24px;
-    font-size: 20px;
+    width: 48px;
+    height: 48px;
+    font-size: 32px;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -64,4 +64,13 @@
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+    #close-popup {
+        width: 24px;
+        height: 24px;
+        font-size: 16px;
+    }
 }
